@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 70b84b727657cfe4785e51a6e2fc5c0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3962373033715507993
+    second: 220puzzleu1f44c.svg 1_0
+  - first:
+      213: 4391726728899873906
+    second: 220puzzleu1f44c.svg 1_1
+  - first:
+      213: 7501256709174966953
+    second: 220puzzleu1f44c.svg 1_2
+  - first:
+      213: -8316942802076888768
+    second: 220puzzleu1f44c.svg 1_3
+  - first:
+      213: -3901469016566455191
+    second: 220puzzleu1f44c.svg 1_4
+  - first:
+      213: 8588289997133978846
+    second: 220puzzleu1f44c.svg 1_5
+  - first:
+      213: 8635385376183631206
+    second: 220puzzleu1f44c.svg 1_6
+  - first:
+      213: 1968193907956653211
+    second: 220puzzleu1f44c.svg 1_7
+  - first:
+      213: 4868024355452156956
+    second: 220puzzleu1f44c.svg 1_8
+  - first:
+      213: 951695114922503418
+    second: 220puzzleu1f44c.svg 1_9
+  - first:
+      213: -71628002616541361
+    second: 220puzzleu1f44c.svg 1_10
+  - first:
+      213: 4626262162948579750
+    second: 220puzzleu1f44c.svg 1_11
+  - first:
+      213: -2330361517988823457
+    second: 220puzzleu1f44c.svg 1_12
+  - first:
+      213: 2910995519554012312
+    second: 220puzzleu1f44c.svg 1_13
+  - first:
+      213: -7004750232367995105
+    second: 220puzzleu1f44c.svg 1_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 165
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9132336d74d2df630800000000000000
+      internalID: 3962373033715507993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 165
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c4aaa013c82fc30800000000000000
+      internalID: 4391726728899873906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aab36fcb31d91860800000000000000
+      internalID: 7501256709174966953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04117f82698449c80800000000000000
+      internalID: -8316942802076888768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 110
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9642d5da9923bd9c0800000000000000
+      internalID: -3901469016566455191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc163bef3cbf2770800000000000000
+      internalID: 8588289997133978846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 110
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d37065f3d07d770800000000000000
+      internalID: 8635385376183631206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c18dc6eed605b10800000000000000
+      internalID: 1968193907956653211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cfca00c52be8340800000000000000
+      internalID: 4868024355452156956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 55
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc2e6b2aa9153d00800000000000000
+      internalID: 951695114922503418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 55
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ff11c06b6810ff0800000000000000
+      internalID: -71628002616541361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1616c1de8c33040800000000000000
+      internalID: 4626262162948579750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3902db84e8afd0800000000000000
+      internalID: -2330361517988823457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89445cd700fe56820800000000000000
+      internalID: 2910995519554012312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 220puzzleu1f44c.svg 1_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17ee53c6c02ace90800000000000000
+      internalID: -7004750232367995105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
