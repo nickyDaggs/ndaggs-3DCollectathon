@@ -16,6 +16,7 @@ public class SoundEffect : MonoBehaviour
         {
             Audio.clip = clip;
             Audio.Play();
+            Audio.loop = true;
         } else
         {
             Audio.PlayOneShot(clip);

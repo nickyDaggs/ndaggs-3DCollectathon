@@ -28,7 +28,7 @@ public class PlayerCollider : MonoBehaviour
     Animator Switch;
     public GameObject amber;
     bool temp;
-    public Animator caught;
+    public Animator fade;
     public float pieceCounter = 00000;
     public GameObject counter;
     public Dialogue panel;
@@ -62,13 +62,6 @@ public class PlayerCollider : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 transform.parent.GetComponent<CharacterController>().enabled = false;
-                if (port.loadScene)
-                {
-                    SceneManager.LoadScene(port.SceneToLoad);
-                } else
-                {
-                    transform.parent.position = port.teleport.position;
-                }
                 if (port.turnAudioOff)
                 {
                     Audio.clip = null;
@@ -81,8 +74,16 @@ public class PlayerCollider : MonoBehaviour
                         Audio.Play();
                     }
                 }
-                port = null;
-                transform.parent.GetComponent<CharacterController>().enabled = true;
+                if (port.loadScene)
+                {
+                    SceneManager.LoadScene(port.SceneToLoad);
+                    port = null;
+                }
+                else
+                {
+                    StartCoroutine(Teleport());
+                }
+                
                 
             }
         }
@@ -193,6 +194,16 @@ public class PlayerCollider : MonoBehaviour
     {
         yield return new WaitForSeconds(.1f);
         currentCam.GetCinemachineComponent<CinemachineFramingTransposer>().m_ScreenY = .5f;
+    }
+
+    IEnumerator Teleport()
+    {
+        fade.SetTrigger("Fade");
+        yield return new WaitForSeconds(.15f);
+        transform.parent.position = port.teleport.position;
+        port = null;
+        transform.parent.GetComponent<CharacterController>().enabled = true;
+
     }
 
     IEnumerator damageAnim()

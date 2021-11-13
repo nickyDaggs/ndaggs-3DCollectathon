@@ -2700,9 +2700,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Audio: {fileID: 923870570}
-  clip: {fileID: 8300000, guid: 72dd3ecbdd5cbed4b90dc6ee0c021013, type: 3}
+  clip: {fileID: 8300000, guid: 9d0446c1074c86640b5fe2c32faa1ae9, type: 3}
   Button: {fileID: 1159490380}
-  loop: 0
+  loop: 1
 --- !u!95 &1783329519
 Animator:
   serializedVersion: 3
