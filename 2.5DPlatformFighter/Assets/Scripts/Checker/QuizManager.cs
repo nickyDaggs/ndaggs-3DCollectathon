@@ -7,6 +7,8 @@ using System.Linq;
 
 public class QuizManager : MonoBehaviour
 {
+    public Animator win;
+
     public Text qText;
     public List<string> questions;
     public List<GameObject> questionParts;
@@ -27,7 +29,7 @@ public class QuizManager : MonoBehaviour
         {
             Correct();
             universalChecker.Instance.doneL = true;
-            
+            win.SetTrigger("Win");
         }
     }
 
@@ -41,6 +43,6 @@ public class QuizManager : MonoBehaviour
 
     public void End()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

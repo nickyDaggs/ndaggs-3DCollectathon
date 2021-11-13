@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
     public Dialogue panel;
     public int complete = 0;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {

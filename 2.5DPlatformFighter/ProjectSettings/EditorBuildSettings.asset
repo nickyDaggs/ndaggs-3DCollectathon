@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HolidayActivity.unity
     guid: 7d9e73f43a8d6ac4aa30d34c233a6c78
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/BossTransition.unity
+    guid: 38f97d1484e2fce48b4fe612020047df
+  - enabled: 1
+    path: Assets/Scenes/FinalBoss.unity
+    guid: 83c69a934d466e04f81150d7f0a1b85f
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/RegularEnding.unity
+    guid: cdd6e05098a37fb44a2fbc2af0f42afd
   m_configObjects: {}

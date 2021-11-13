@@ -21,7 +21,7 @@ public class Dialogue : MonoBehaviour
     public bool pets;
     public musicController music;
     public Animator winScreen;
-    public Animator boss;
+    public bossScript boss;
     // Start is called before the first frame update
     void Start()
     {
@@ -130,7 +130,7 @@ public class Dialogue : MonoBehaviour
                 }
                 break;
             case Action.Damage:
-                boss.SetTrigger("Damage");
+                boss.Damage();
                 break;
 
             case Action.Cutscene:

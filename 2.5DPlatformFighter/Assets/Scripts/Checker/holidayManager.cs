@@ -10,6 +10,8 @@ public class holidayManager : MonoBehaviour
     public List<PuzzleSlot> slots;
 
     public Button end;
+
+    public Animator win;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +25,12 @@ public class holidayManager : MonoBehaviour
         {
             end.interactable = true;
             universalChecker.Instance.doneH = true;
+            win.SetTrigger("Win");
         }
     }
 
     public void End()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

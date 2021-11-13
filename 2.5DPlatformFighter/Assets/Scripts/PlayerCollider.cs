@@ -7,6 +7,11 @@ using Cinemachine;
 
 public class PlayerCollider : MonoBehaviour
 {
+    public float health;
+    public bool hp;
+    public AudioSource Audio;
+    public AudioClip mainTheme;
+
     SignDialogue sign = null;
     levelPortal port = null;
     public bool camMove;
@@ -27,6 +32,8 @@ public class PlayerCollider : MonoBehaviour
     public float pieceCounter = 00000;
     public GameObject counter;
     public Dialogue panel;
+    public Text hpText;
+    bool invincible;
 
 
     // Start is called before the first frame update
@@ -62,9 +69,32 @@ public class PlayerCollider : MonoBehaviour
                 {
                     transform.parent.position = port.teleport.position;
                 }
+                if (port.turnAudioOff)
+                {
+                    Audio.clip = null;
+                }
+                else
+                {
+                    if (Audio.clip != mainTheme)
+                    {
+                        Audio.clip = mainTheme;
+                        Audio.Play();
+                    }
+                }
                 port = null;
                 transform.parent.GetComponent<CharacterController>().enabled = true;
+                
             }
+        }
+
+        if(health < 1)
+        {
+            SceneManager.LoadScene(5);
+        }
+
+        if(hp)
+        {
+            hpText.text = "HP:" + health;
         }
         /*
         if (Switch != null)
@@ -136,39 +166,15 @@ public class PlayerCollider : MonoBehaviour
         {
             port = other.GetComponent<levelPortal>();
         }
+        else if (other.gameObject.tag == "Projectile" && !invincible)
+        {
+            health--;
+            Destroy(other.gameObject);
+            StartCoroutine(damageAnim());
+        }
+
+
         
-        /*else if (other.gameObject.tag == "camCollider")
-        {
-            camTarget.transform.localPosition = other.GetComponent<camColliderScript>().camTarget;
-            if (currentCam == cam1)
-            {
-                currentCam.gameObject.SetActive(false);
-                currentCam = cam2;
-                StartCoroutine(camChange());
-            } else if (currentCam == cam2)
-            {
-                currentCam.gameObject.SetActive(false);
-                currentCam = cam1;
-            }
-        } else if(other.gameObject.tag == "SwitchL" || other.gameObject.tag == "SwitchR")
-        {
-            Switch = other.GetComponent<Animator>();
-        } else if(other.gameObject.tag == "PetA")
-        {
-            amber.GetComponent<Animator>().SetBool("Jump", false);
-            amber.GetComponent<Animator>().SetBool("dead", true);
-            temp = true;
-            Debug.Log("Pet Collected");
-        } else if (other.gameObject.tag == "Bucket")
-        {
-            other.GetComponent<Animator>().SetTrigger("Caught");
-        } else if(other.gameObject.tag == "piece")
-        {
-            other.GetComponent<pieceScript>().collected = true;
-            counter.GetComponent<counterScript>().pieceCounter += 1;
-            
-            TurnOnCounter();
-        }*/
     }
     void TurnOnCounter()
     {
@@ -189,4 +195,16 @@ public class PlayerCollider : MonoBehaviour
         currentCam.GetCinemachineComponent<CinemachineFramingTransposer>().m_ScreenY = .5f;
     }
 
+    IEnumerator damageAnim()
+    {
+        invincible = true;
+        for(int i = 0; i < 2; i++)
+        {
+            yield return new WaitForSeconds(.1f);
+            GetComponent<SpriteRenderer>().color = Color.red;
+            yield return new WaitForSeconds(.1f);
+            GetComponent<SpriteRenderer>().color = Color.white;
+        }
+        invincible = false;
+    }
 }

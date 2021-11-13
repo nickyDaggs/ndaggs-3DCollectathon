@@ -26,6 +26,15 @@ public class universalChecker : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Update()
+    {
+        if(doneF && doneH && doneL && doneM && doneR && doneS)
+        {
+            SceneManager.LoadScene(4);
+            doneS = false;
+        }
+    }
+
     public void End()
     {
         SceneManager.LoadScene(1);

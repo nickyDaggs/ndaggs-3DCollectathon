@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class levelPortal : MonoBehaviour
 {
+    public bool turnAudioOff;
     public Transform teleport;
     public bool loadScene;
     public int SceneToLoad;

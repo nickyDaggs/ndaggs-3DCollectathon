@@ -796,6 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 162015473}
   loadScene: 0
   SceneToLoad: 0
@@ -1210,6 +1211,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ccfbd67bcbf474ba1fd182e9dc817e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 5
+  hp: 0
+  Audio: {fileID: 492080986}
+  mainTheme: {fileID: 8300000, guid: 4342a163014224448893b6eea8cafbcd, type: 3}
   camMove: 0
   cam: {fileID: 0}
   camTarget: {fileID: 0}
@@ -1225,6 +1230,7 @@ MonoBehaviour:
   pieceCounter: 0
   counter: {fileID: 0}
   panel: {fileID: 1211206325}
+  hpText: {fileID: 0}
 --- !u!65 &95447294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1297,6 +1303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 596772345}
   loadScene: 0
   SceneToLoad: 0
@@ -1639,7 +1646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149390923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28, y: 1.513, z: -18}
+  m_LocalPosition: {x: -28, y: 1.513, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 33440736}
@@ -2461,6 +2468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 492080986}
   clip: {fileID: 8300000, guid: 548c4da1ea0fd1042ac33d8e96804ab7, type: 3}
+  Button: {fileID: 0}
+  loop: 0
 --- !u!1 &219386066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,6 +2835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 1
   teleport: {fileID: 981918678}
   loadScene: 0
   SceneToLoad: 0
@@ -3750,6 +3760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 162015473}
   loadScene: 0
   SceneToLoad: 0
@@ -3995,7 +4006,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4342a163014224448893b6eea8cafbcd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4285,6 +4296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 1925367507}
   loadScene: 0
   SceneToLoad: 0
@@ -8006,6 +8018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 162015473}
   loadScene: 0
   SceneToLoad: 0
@@ -8294,6 +8307,7 @@ MonoBehaviour:
   pets: 0
   music: {fileID: 981918679}
   winScreen: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!23 &1211206326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9285,8 +9299,9 @@ MonoBehaviour:
   - Most people just say the same things about being in 'awe' and 'amazed' by presence.
   - You seem to just take in the site and keep it to yourself.
   - That's pretty cool.
-  - I did have this whole challenge thing set up for you, but I think I'll let you
-    pass for now since you gave me a moment to just breath for a bit.
+  - I did have this whole challenge thing set up for you...
+  - But I think I'll let you pass for now since you gave me a moment to just breath
+    for a bit.
   action: 1
   actionToDo: 4
   objs: []
@@ -10955,6 +10970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 162015473}
   loadScene: 0
   SceneToLoad: 0
@@ -14521,6 +14537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 705799695}
   loadScene: 0
   SceneToLoad: 0
@@ -14770,6 +14787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 0}
   loadScene: 1
   SceneToLoad: 2
@@ -14991,6 +15009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a152928586d68458bf20c7c2f4afd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnAudioOff: 0
   teleport: {fileID: 0}
   loadScene: 1
   SceneToLoad: 3
